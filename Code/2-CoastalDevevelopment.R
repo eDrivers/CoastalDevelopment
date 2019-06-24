@@ -42,8 +42,11 @@ coastDev <- sf::st_intersection(bufGrid, nl) %>% # zonal intersect
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #                                  EXPORT DATA
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Change name for uniformity
+CoastalDevelopment <- coastDev
+
 # Export object as .RData
-save(coastDev, file = './Data/Driver/CoastalDevelopment.RData')
+save(CoastalDevelopment, file = './Data/Driver/CoastalDevelopment.RData')
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
