@@ -1,0 +1,26 @@
+title: "Coastal development"
+subtitle: ""
+description: "Coastal development characterized using the Nighttime Lights Time Series compiled by the Earth Observation Group at the National Oceanic and Atmospheric Administration’s (NOAA) National Centers for Environmental Information (NCEI)"
+
+rawData:
+  source: "Earth observation group (2019). Version 1 VIIRS Day/Night Band Nighttime Lights. NOAA National Centers for Environmental Information (NCEI)."
+  contact: "NA"
+
+dataDescription:
+  units: "nanoWatts * cm^−2 * sr^−1"
+  spatialResolution: "15 arc-second"
+  temporalResolution: "Annual"
+  years: "2015-2016"
+  projection:
+    proj4string: "+proj=lcc +lat_1=60 +lat_2=46 +lat_0=44 +lon_0=-68.5 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
+    egsp: "32198"
+  extent:
+    xmin: "-187227.1"
+    ymin: "190986.5"
+    xmax: "865015.9"
+    ymax: "962115.1"
+
+availability:
+  rawData: "yes"
+  code: "yes"
+  driver: "yes"
